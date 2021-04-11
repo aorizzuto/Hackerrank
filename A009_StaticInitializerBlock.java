@@ -30,6 +30,8 @@ public class A009_StaticInitializerBlock {
             flag = true;
         }
 
+        scan.close();
+
     }
     
     public static void main(String[] args){

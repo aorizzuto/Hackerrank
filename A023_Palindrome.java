@@ -11,5 +11,7 @@ public class A023_Palindrome {
         for (int i=A.length()-1;i>=0;i--) B+=A.charAt(i);
 
         System.out.println(A.equals(B)?"Yes":"No");
+
+        sc.close();
     }
 }

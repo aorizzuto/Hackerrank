@@ -16,8 +16,6 @@ false
 false
 */
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 import java.util.Scanner;
 
 public class A027_Regex{
@@ -28,7 +26,7 @@ public class A027_Regex{
             String IP = in.next();
             System.out.println(IP.matches(new MyRegex().pattern));
         }
-
+        in.close();
     }
 }
 

@@ -14,9 +14,6 @@ An instance of class: Solution.Inner.Private has been created
 */
 
 import java.io.*;
-import java.lang.reflect.*;
-import java.util.*;
-import java.util.regex.*;
 import java.security.*;
 
 

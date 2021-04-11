@@ -8,5 +8,7 @@ public class A021_Strings2 {
         int end = in.nextInt();
         
         System.out.println(S.substring(start,end));
+
+        in.close();
     }
 }

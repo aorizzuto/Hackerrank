@@ -22,5 +22,7 @@ public class A008_EndOfFile {
             i++;
             System.out.println(i + " " + scan.nextLine());
         }
+
+        scan.close();
     }
 }

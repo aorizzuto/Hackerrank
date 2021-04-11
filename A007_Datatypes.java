@@ -44,5 +44,7 @@ public class A007_Datatypes {
             }
 
         }
+
+        sc.close();
     }
 }

@@ -24,5 +24,7 @@ public class A005_Loops {
         {
             System.out.printf("%d x %d = %d\n",N,i+1,N*(i+1));
         }
+
+        scanner.close();
     }
 }

@@ -34,5 +34,7 @@ public class A020_Strings {
         B = B.toUpperCase().charAt(0) + B.toLowerCase().substring(1,B.length());
 
         System.out.println(A + " " + B);
+
+        sc.close();
     }
 }

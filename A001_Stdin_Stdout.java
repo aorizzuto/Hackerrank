@@ -18,5 +18,7 @@ public class A001_Stdin_Stdout {
         System.out.println(a);
         System.out.println(b);
         System.out.println(c);
+
+        scanner.close();
     }
 }
