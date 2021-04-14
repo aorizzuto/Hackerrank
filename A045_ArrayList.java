@@ -24,7 +24,6 @@ Explanation
 https://www.hackerrank.com/challenges/java-arraylist/problem?h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen
 */
 
-import java.io.*;
 import java.util.*;
 
 public class A045_ArrayList {

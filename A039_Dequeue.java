@@ -66,6 +66,8 @@ public class A039_Dequeue {
                 }
             }
         }
+
+        in.close();
         
         System.out.println(max);
     }

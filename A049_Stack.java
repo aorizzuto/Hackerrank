@@ -37,6 +37,8 @@ public class A049_Stack {
 
             System.out.println(isBalanced(input));
 		}
+
+        sc.close();
 		
 	}
 
