@@ -4,13 +4,13 @@ Exercises of Hackerrank
 
 ## Java
 
-### &nbsp;&nbsp;&nbsp;Numbers
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Numbers for "Java"
 
     5 stars
     63/64 challenges solved
     Rank: 5468|Points: 893
 
-### Exercises of Java
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Exercises of "Java"
 
 <table>
 <tr>
@@ -117,5 +117,58 @@ Exercises of Hackerrank
 <td><a href = "https://github.com/aorizzuto/Hackerrank/blob/main/Exercises/A061_Primality_test.java">061 - Primality test</a></td>
 <td><a href = "https://github.com/aorizzuto/Hackerrank/blob/main/Exercises/A062_Exception_Handling.java">062 - Exception handling</a></td>
 <td><a href = "https://github.com/aorizzuto/Hackerrank/blob/main/Exercises/A063_Exception_Handling_Try_Catch.java">063 - Exception handling 2</a></td>
+</tr>
+</table>
+
+_________________
+
+## Problem solving
+
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Numbers for "Problem solving"
+
+    3 stars
+    Rank: 563875
+
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Exercises of "Problem solving"
+
+<table>
+<tr>
+<td><a href = "https://github.com/aorizzuto/Hackerrank/blob/main/Exercises/A064_Compare_Triplets.java">064 - Compare triplets</a></td>
+<td><a href = "https://github.com/aorizzuto/Hackerrank/blob/main/Exercises/A065_A_Very_Big_Sum.java">065 - A very big sum</a></td>
+<td><a href = "https://github.com/aorizzuto/Hackerrank/blob/main/Exercises/A066_Diagonal_Difference.java">066 - Diagonal difference</a></td>
+</tr>
+<tr>
+<td><a href = "https://github.com/aorizzuto/Hackerrank/blob/main/Exercises/A067_Plus_Minus.java">067 - Plus minus</a></td>
+<td><a href = "https://github.com/aorizzuto/Hackerrank/blob/main/Exercises/A068_Staircase.java">068 - Staircase</a></td>
+<td><a href = "https://github.com/aorizzuto/Hackerrank/blob/main/Exercises/A069_Mini_Max_Sum.java">069 - Mini max sum</a></td>
+</tr>
+<tr>
+<td><a href = "https://github.com/aorizzuto/Hackerrank/blob/main/Exercises/A070_Birthday_Cake_Candles.java">070 - Birthday cake candles</a></td>
+<td><a href = "https://github.com/aorizzuto/Hackerrank/blob/main/Exercises/A071_Time_Conversion.java">071 - Time conversion</a></td>
+<td><a href = "https://github.com/aorizzuto/Hackerrank/blob/main/Exercises/A072_Going_To_The_Office.java">072 - Going to the office</a></td>
+</tr>
+<tr>
+<td><a href = "https://github.com/aorizzuto/Hackerrank/blob/main/Exercises/A073_Grading_Student.java">073 - Grading student</a></td>
+<td><a href = "https://github.com/aorizzuto/Hackerrank/blob/main/Exercises/A074_Apple_and_Orange.java">074 - Apple and oranges</a></td>
+<td><a href = "https://github.com/aorizzuto/Hackerrank/blob/main/Exercises/A075_Number_Line_Jumps.java">075 - Number line jumps</a></td>
+</tr>
+<tr>
+<td><a href = "https://github.com/aorizzuto/Hackerrank/blob/main/Exercises/A076_Between_Two_Sets.java">076 - Between two sets</a></td>
+<td><a href = "https://github.com/aorizzuto/Hackerrank/blob/main/Exercises/A077_Beaking_The_Records.java">077 - Breaking the records</a></td>
+<td><a href = "https://github.com/aorizzuto/Hackerrank/blob/main/Exercises/A078_Subarray_Division.java">078 - Subarray division</a></td>
+</tr>
+<tr>
+<td><a href = "https://github.com/aorizzuto/Hackerrank/blob/main/Exercises/A079_Divisible_Sum_Pairs.java">079 - Divisible sum pairs</a></td>
+<td><a href = "https://github.com/aorizzuto/Hackerrank/blob/main/Exercises/A080_Migratory_Birds.java">080 - Migratory birds</a></td>
+<td><a href = "https://github.com/aorizzuto/Hackerrank/blob/main/Exercises/A081_Day_of_the_Programmer.java">081 - Day of the programmer</a></td>
+</tr>
+<tr>
+<td><a href = "https://github.com/aorizzuto/Hackerrank/blob/main/Exercises/A082_Bill_Division.java">082 - Bill division</a></td>
+<td><a href = "https://github.com/aorizzuto/Hackerrank/blob/main/Exercises/A083_Sales_Match.java">083 - Sales match</a></td>
+<td><a href = "https://github.com/aorizzuto/Hackerrank/blob/main/Exercises/A084_Drawing_Book.java">084 - Drawing book</a></td>
+</tr>
+<tr>
+<td><a href = "https://github.com/aorizzuto/Hackerrank/blob/main/Exercises/A085_Counting_Valleys.java">085 - Counting valleys</a></td>
+<td><a href = "https://github.com/aorizzuto/Hackerrank/blob/main/Exercises/A086_Electronics_Shop.java">086 - Electronics shop</a></td>
 </tr>
 </table>
