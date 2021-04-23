@@ -1,19 +1,20 @@
 # Hackerrank
+
 Exercises of Hackerrank
 
-# Java
+## Java
 
-## &nbsp;&nbsp;&nbsp;Numbers
+### &nbsp;&nbsp;&nbsp;Numbers
 
     5 stars
     63/64 challenges solved
     Rank: 5468|Points: 893
 
-## Exercises
+### Exercises of Java
 
 <table>
 <tr>
-<td><a href = "https://github.com/aorizzuto/Hackerrank/blob/main/Exercises/A001_Stdin_Stdout.java">001 - Stdin Stdout I</a></td>
+<td><a href = "https://github.com/aorizzuto/Hackerrank/blob/main/Exercises/A001_Stdin_Stdout.java" target="blank">001 - Stdin Stdout I</a></td>
 <td><a href = "https://github.com/aorizzuto/Hackerrank/blob/main/Exercises/A002_If_Else.java">002 - If else</a></td>
 <td><a href = "https://github.com/aorizzuto/Hackerrank/blob/main/Exercises/A003_Stdin_Stdout2.java">003 - Stdin Stdout II</a></td>
 </tr>
