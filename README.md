@@ -14,7 +14,7 @@ Exercises of Hackerrank
 
 <table>
 <tr>
-<td><a href = "https://github.com/aorizzuto/Hackerrank/blob/main/Exercises/A001_Stdin_Stdout.java" target="blank">001 - Stdin Stdout I</a></td>
+<td><a href = "https://github.com/aorizzuto/Hackerrank/blob/main/Exercises/A001_Stdin_Stdout.java" target="_blank">001 - Stdin Stdout I</a></td>
 <td><a href = "https://github.com/aorizzuto/Hackerrank/blob/main/Exercises/A002_If_Else.java">002 - If else</a></td>
 <td><a href = "https://github.com/aorizzuto/Hackerrank/blob/main/Exercises/A003_Stdin_Stdout2.java">003 - Stdin Stdout II</a></td>
 </tr>
