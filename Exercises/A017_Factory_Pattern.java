@@ -1,3 +1,5 @@
+package Exercises;
+
 /*
 According to Wikipedia, a factory is simply an object that returns another object from some other method call, which is assumed to be "new".
 There are two classes Pizza and Cake which implement the Food interface, and they both contain a method getType().

@@ -1,3 +1,5 @@
+package Exercises;
+
 /*
 Java Iterator class can help you to iterate through every element in a collection. Here is a simple example:
 

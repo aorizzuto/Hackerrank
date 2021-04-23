@@ -1,3 +1,5 @@
+package Exercises;
+
 import java.util.Scanner;
 
 public class A021_Strings2 {

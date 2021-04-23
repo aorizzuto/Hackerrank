@@ -1,3 +1,5 @@
+package Exercises;
+
 /*
 You are given a class Solution and an inner class Inner.Private. 
 The main method of class Solution takes an integer "num" as input. 

@@ -1,3 +1,5 @@
+package Exercises;
+
 /*
 This is a staircase of size 4
    #

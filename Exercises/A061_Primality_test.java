@@ -1,3 +1,5 @@
+package Exercises;
+
 /*
 A prime number is a natural number greater than  whose only positive divisors are  and itself. 
 

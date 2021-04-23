@@ -1,3 +1,5 @@
+package Exercises;
+
 /*
 Sample
 5

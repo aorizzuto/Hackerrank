@@ -1,3 +1,5 @@
+package Exercises;
+
 /*
 The username consists of 8 to 30 characters inclusive. If outside the range, then it is an invalid username.
 The username can only contain alphanumeric characters and underscores (_). lowercase, uppercase and digits.

@@ -1,3 +1,5 @@
+package Exercises;
+
 /*
 Java's BigDecimal class can handle arbitrary-precision signed decimal numbers. Let's test your knowledge of them!
 

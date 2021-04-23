@@ -1,3 +1,5 @@
+package Exercises;
+
 /*
 Java BitSet
 Java's BitSet class implements a vector of bit values that grows as needed, allowing us to easily manipulate bits while optimizing space. 

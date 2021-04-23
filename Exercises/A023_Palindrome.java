@@ -1,3 +1,5 @@
+package Exercises;
+
 import java.util.Scanner;
 
 // Given a string , print Yes if it is a palindrome, print No otherwise.

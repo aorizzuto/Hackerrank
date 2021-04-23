@@ -1,3 +1,5 @@
+package Exercises;
+
 /*
 A Java interface can only contain method signatures and fields. The interface can be used to achieve polymorphism. 
 You are given an interface AdvancedArithmetic which contains a method signature int divisor_sum(int n). 

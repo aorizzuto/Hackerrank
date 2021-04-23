@@ -1,3 +1,5 @@
+package Exercises;
+
 /*
 In computer science, a double-ended queue (dequeue, often abbreviated to deque, pronounced deck) is an abstract data type that generalizes 
 a queue, for which elements can be added to or removed from either the front (head) or back (tail).

@@ -1,3 +1,5 @@
+package Exercises;
+
 /*
 Generic methods are a very efficient way to handle multiple datatypes using a single method.
 Let's say you have an integer array and a string array. You have to write a single method printArray that can print all the elements of 

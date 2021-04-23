@@ -1,3 +1,5 @@
+package Exercises;
+
 /*
 Return
 int: the number of candles that are tallest

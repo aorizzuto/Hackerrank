@@ -1,3 +1,5 @@
+package Exercises;
+
 /*
 You are given a class Solution and its main method in the editor.
 Your task is to create the class Add and the required methods so that the code prints the sum of the numbers passed to the function add.

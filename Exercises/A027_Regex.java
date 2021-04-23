@@ -1,3 +1,5 @@
+package Exercises;
+
 /*
 Sample Input
 000.12.12.034

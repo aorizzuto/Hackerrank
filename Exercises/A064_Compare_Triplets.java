@@ -1,3 +1,5 @@
+package Exercises;
+
 /*
 www.hackerrank.com/challenges/compare-the-triplets
 */

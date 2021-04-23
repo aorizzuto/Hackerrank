@@ -1,3 +1,5 @@
+package Exercises;
+
 /*
 Write the following methods that return a lambda expression performing a specified action:
 PerformOperation isOdd(): The lambda expression must return  if a number is odd or  if it is even.

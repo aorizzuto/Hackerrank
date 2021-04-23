@@ -1,3 +1,5 @@
+package Exercises;
+
 /*
 Your task is to create a class Prime. The class Prime should contain a single method checkPrime.
 The locked code in the editor will call the checkPrime method with one or more integer arguments. 

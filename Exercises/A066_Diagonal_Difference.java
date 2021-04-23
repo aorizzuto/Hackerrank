@@ -1,3 +1,5 @@
+package Exercises;
+
 /*
 Sample Input
 3

@@ -1,3 +1,5 @@
+package Exercises;
+
 /*
 Your class mustn't be public.
 
