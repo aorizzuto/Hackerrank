@@ -63,6 +63,7 @@ public class A035_Iterator{
          Object element = it.next();
          System.out.println((String)element);
       }
+      sc.close();
    }
 }
 

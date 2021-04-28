@@ -22,7 +22,7 @@ public class A082_Bill_Division {
 
         String[] nk = bufferedReader.readLine().replaceAll("\\s+$", "").split(" ");
 
-        int n = Integer.parseInt(nk[0]);
+        Integer.parseInt(nk[0]);
 
         int k = Integer.parseInt(nk[1]);
 

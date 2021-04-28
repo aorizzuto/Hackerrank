@@ -24,7 +24,7 @@ Sample Output
 
 import java.util.*;
 
-class Student{}
+class Stude{}
 class Rockstar{   }
 class Hacker{}
 
@@ -35,7 +35,7 @@ public class A034_InstanceOf{
       int a = 0,b = 0,c = 0;
       for(int i = 0; i < mylist.size(); i++){
          Object element=mylist.get(i);
-         if(element instanceof Student)
+         if(element instanceof Stude)
             a++;
          if(element instanceof Rockstar)
             b++;
@@ -47,14 +47,14 @@ public class A034_InstanceOf{
    }
 
    public static void main(String []args){
-      ArrayList mylist = new ArrayList();
+      ArrayList mylist = new ArrayList<>();
       Scanner sc = new Scanner(System.in);
       int t = sc.nextInt();
       for(int i=0; i<t; i++){
          String s=sc.next();
-         if(s.equals("Student"))mylist.add(new Student());
+         if(s.equals("Student")) mylist.add(new Stude());
          if(s.equals("Rockstar"))mylist.add(new Rockstar());
-         if(s.equals("Hacker"))mylist.add(new Hacker());
+         if(s.equals("Hacker"))  mylist.add(new Hacker());
       }
       System.out.println(count(mylist));
    }

@@ -20,7 +20,7 @@ import java.lang.reflect.Method;
 
 class Printer
 {
-    static <T> void printArray(T obj[]){
+    public <T> void printArray(T obj[]){
        for(int i=0;i<obj.length;i++){
         System.out.println(obj[i]);
        }

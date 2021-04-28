@@ -32,7 +32,7 @@ public class A080_Migratory_Birds {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(System.out));
 
-        int arrCount = Integer.parseInt(bufferedReader.readLine().trim());
+        Integer.parseInt(bufferedReader.readLine().trim());
 
         List<Integer> arr = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
             .map(Integer::parseInt)

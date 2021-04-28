@@ -32,6 +32,6 @@ class MotorCycle extends BiCycle{
 }
 public class A033_Method_Overriding2{
 	public static void main(String []args){
-		MotorCycle M=new MotorCycle();
+		new MotorCycle();
 	}
 }

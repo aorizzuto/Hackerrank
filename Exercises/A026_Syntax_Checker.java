@@ -33,7 +33,7 @@ public class A026_Syntax_Checker
 		while(testCases>0){
 			String REGEX = in.nextLine();
             try{
-                Pattern pattern = Pattern.compile(REGEX);
+                Pattern.compile(REGEX);
                 str[count]="Valid";
             }catch(Exception e){
                 str[count]="Invalid";
@@ -46,6 +46,7 @@ public class A026_Syntax_Checker
         for (String s : str){
             System.out.println(s);
         }
+        in.close();
 	}
 }
 

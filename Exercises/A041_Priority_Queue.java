@@ -29,12 +29,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-class Student1 implements Comparable<Student1>{
+class Studen implements Comparable<Studen>{
     private int id;
     private String name;
     private double cgpa;
 
-    Student1(int id, String name, double cgpa){
+    Studen(int id, String name, double cgpa){
         this.id = id;
         this.name = name;
         this.cgpa = cgpa;
@@ -53,7 +53,7 @@ class Student1 implements Comparable<Student1>{
     }
 
     @Override
-    public int compareTo(Student1 u) {
+    public int compareTo(Studen u) {
         if (Double.compare(u.getCgpa(),getCgpa()) != 0){
             return Double.compare(u.getCgpa(),getCgpa());
         }
@@ -62,9 +62,9 @@ class Student1 implements Comparable<Student1>{
 }
 
 class Priorities {
-    List<Student1> students = new ArrayList<>();
+    List<Studen> students = new ArrayList<>();
 
-    public List<Student1> getStudents(List<String> events){
+    public List<Studen> getStudents(List<String> events){
 
         for (String event : events) {
             if (event.contains("ENTER")){
@@ -80,9 +80,9 @@ class Priorities {
     }
 
     public void removeStudent(){
-        Student1 max = null;
+        Studen max = null;
 
-        for (Student1 student1 : students) {
+        for (Studen student1 : students) {
             if (max == null){
                 max = student1;
                 continue;
@@ -111,7 +111,7 @@ class Priorities {
 
     public void insertStudent(String event){
         String[] info = event.split(" ");
-        students.add(new Student1(Integer.parseInt(info[3]), info[1], Double.parseDouble(info[2])));
+        students.add(new Studen(Integer.parseInt(info[3]), info[1], Double.parseDouble(info[2])));
     }
 }
 
@@ -128,12 +128,12 @@ public class A041_Priority_Queue {
             events.add(event);
         }
         
-        List<Student1> students = priorities.getStudents(events);
+        List<Studen> students = priorities.getStudents(events);
         
         if (students.isEmpty()) {
             System.out.println("EMPTY");
         } else {
-            for (Student1 st: students) {
+            for (Studen st: students) {
                 System.out.println(st.getName());
             }
         }

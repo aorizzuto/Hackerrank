@@ -37,7 +37,7 @@ public class A078_Subarray_Division {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(System.out));
 
-        int n = Integer.parseInt(bufferedReader.readLine().trim());
+        Integer.parseInt(bufferedReader.readLine().trim());
 
         List<Integer> s = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
             .map(Integer::parseInt)

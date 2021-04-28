@@ -62,7 +62,7 @@ public class A066_Diagonal_Difference {
             arr.add(arrRowItems);
         }
 
-        int result = Result.diagonalDifference(arr);
+        Result.diagonalDifference(arr);
 
         //bufferedWriter.write(String.valueOf(result));
         //bufferedWriter.newLine();

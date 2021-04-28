@@ -34,19 +34,19 @@ interface PerformOperation {
 }
 
 class MyMath {
-    public static boolean checker(PerformOperation p, int num) {
+    public boolean checker(PerformOperation p, int num) {
         return p.check(num);
     }
 
-    public static PerformOperation isOdd(){
+    public PerformOperation isOdd(){
         return x -> x%2==1;
     }
 
-    public static PerformOperation isPrime(){
+    public PerformOperation isPrime(){
         return x -> java.math.BigInteger.valueOf(x).isProbablePrime(1);
     }
 
-    public static PerformOperation isPalindrome(){
+    public PerformOperation isPalindrome(){
         return x -> String.valueOf(x).equals(new StringBuilder(String.valueOf(x)).reverse().toString());
     }
 }

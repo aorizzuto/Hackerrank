@@ -21,10 +21,10 @@ Rumpa
 
 import java.util.*;
 
-class Checker2 implements Comparator<Stud>{
+class Checker2 implements Comparator<Student1>{
 
     @Override
-    public int compare(Stud a, Stud b) {
+    public int compare(Student1 a, Student1 b) {
         if (a.getCgpa() != b.getCgpa())
             return Double.compare(b.getCgpa(), a.getCgpa());
         else
@@ -32,11 +32,11 @@ class Checker2 implements Comparator<Stud>{
     }
 }
 
-class Stud{
+class Student1{
 	private int id;
 	private String fname;
 	private double cgpa;
-	public Stud(int id, String fname, double cgpa) {
+	public Student1(int id, String fname, double cgpa) {
 		super();
 		this.id = id;
 		this.fname = fname;
@@ -60,13 +60,13 @@ public class A053_Sort
 		Scanner in = new Scanner(System.in);
 		int testCases = Integer.parseInt(in.nextLine());
 		
-		List<Stud> studentList = new ArrayList<Stud>();
+		List<Student1> studentList = new ArrayList<Student1>();
 		while(testCases>0){
 			int id = in.nextInt();
 			String fname = in.next();
 			double cgpa = in.nextDouble();
 			
-			Stud st = new Stud(id, fname, cgpa);
+			Student1 st = new Student1(id, fname, cgpa);
 			studentList.add(st);
 			
 			testCases--;
@@ -75,7 +75,7 @@ public class A053_Sort
         Checker2 checker = new Checker2();
         studentList.sort(checker);
       
-      	for(Stud st: studentList){
+      	for(Student1 st: studentList){
 			System.out.println(st.getFname());
 		}
 

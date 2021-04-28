@@ -131,7 +131,7 @@ public class A019_Visitor_Pattern {
         for (int i=0;i<cant_nodes;i++) values.add(scan.nextInt());                  // Get values
         for (int i=0;i<cant_nodes;i++) colors.add(Color.values()[scan.nextInt()]);  // Get colors
 
-        map = new HashMap(cant_nodes);
+        map = new HashMap<>(cant_nodes);
 
         /* Save edges */
         for (int i = 0; i < cant_nodes - 1; i++) {
@@ -141,7 +141,7 @@ public class A019_Visitor_Pattern {
             /* Edges are undirected: Add 1st direction */
             HashSet<Integer> uNeighbors = map.get(u);
             if (uNeighbors == null) {                
-                uNeighbors = new HashSet();
+                uNeighbors = new HashSet<>();
                 map.put(u, uNeighbors);
             }
             uNeighbors.add(v);
@@ -149,7 +149,7 @@ public class A019_Visitor_Pattern {
             /* Edges are undirected: Add 2nd direction */
             HashSet<Integer> vNeighbors = map.get(v);
             if (vNeighbors == null) {
-                vNeighbors = new HashSet();
+                vNeighbors = new HashSet<>();
                 map.put(v, vNeighbors);
             }
             vNeighbors.add(u);

@@ -1,10 +1,8 @@
 package Exercises;
 
 import java.io.*;
-import java.math.*;
 import java.text.*;
 import java.util.*;
-import java.util.regex.*;
 
 public class A071_Time_Conversion {
 

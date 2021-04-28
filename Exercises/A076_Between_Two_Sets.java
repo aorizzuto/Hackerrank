@@ -71,9 +71,9 @@ public class A076_Between_Two_Sets {
 
         String[] firstMultipleInput = bufferedReader.readLine().replaceAll("\\s+$", "").split(" ");
 
-        int n = Integer.parseInt(firstMultipleInput[0]);
+        Integer.parseInt(firstMultipleInput[0]);
 
-        int m = Integer.parseInt(firstMultipleInput[1]);
+        Integer.parseInt(firstMultipleInput[1]);
 
         List<Integer> arr = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
             .map(Integer::parseInt)

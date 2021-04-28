@@ -77,7 +77,7 @@ public class A072_Going_To_The_Office {
         List<Road> roads = new ArrayList<>();
         roads.clear();
 
-        int N = scan.nextInt();
+        scan.nextInt();
         int M = scan.nextInt();
         
         /*** GET ROADS ***/

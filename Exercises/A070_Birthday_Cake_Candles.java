@@ -33,7 +33,8 @@ public class A070_Birthday_Cake_Candles {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         //BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
 
-        int candlesCount = Integer.parseInt(bufferedReader.readLine().trim());
+        //int candlesCount = Integer.parseInt(bufferedReader.readLine().trim());
+        Integer.parseInt(bufferedReader.readLine().trim());
 
         List<Integer> candles = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
             .map(Integer::parseInt)
