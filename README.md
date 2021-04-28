@@ -12,6 +12,10 @@ Exercises of Hackerrank
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Exercises of "Java"
 
+| [A001_Stdin_Stdout.java](001 - Stdin Stdout I) | [A002_If_Else.java](002 - If else)
+
+### test
+
 <table>
 <tr>
 <td><a href = "https://github.com/aorizzuto/Hackerrank/blob/main/Exercises/A001_Stdin_Stdout.java" target="_blank">001 - Stdin Stdout I</a></td>
