@@ -1,27 +1,29 @@
 package Exercises;
 
 import java.io.*;
-import java.math.*;
-import java.text.*;
 import java.util.*;
-import java.util.regex.*;
 
 public class A086_Electronics_Shop {
 
-    /*
-     * Complete the getMoneySpent function below.
-     */
     static int getMoneySpent(int[] keyboards, int[] drives, int b) {
-        /*
-         * Write your code here.
-         */
+        Arrays.sort(keyboards);
+        Arrays.sort(drives);
 
+        int max = -1;
+        for (int i = drives.length - 1; i >= 0; i--) {
+            for (int j = 0; j < keyboards.length; j++) {
+                int sum = drives[i] + keyboards[j];
+                if (sum <= b && sum > max) max = sum;
+            }
+        }
+
+        return max;
     }
 
     private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) throws IOException {
-        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
+        BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(System.out));
 
         String[] bnm = scanner.nextLine().split(" ");
         scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])*");
