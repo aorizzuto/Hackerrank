@@ -4,7 +4,6 @@ package Exercises;
 
 import java.io.*;
 import java.util.*;
-import java.util.Map.Entry;
 import java.util.stream.*;
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
