@@ -1,13 +1,7 @@
 package Exercises;
 
 import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
 import java.util.*;
-import java.util.concurrent.*;
-import java.util.function.*;
-import java.util.regex.*;
 import java.util.stream.*;
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
@@ -15,15 +9,20 @@ import static java.util.stream.Collectors.toList;
 class Result99 {
 
     /*
-     * Complete the 'permutationEquation' function below.
-     *
-     * The function is expected to return an INTEGER_ARRAY.
-     * The function accepts INTEGER_ARRAY p as parameter.
+     * https://www.hackerrank.com/challenges/permutation-equation/problem
      */
 
     public static List<Integer> permutationEquation(List<Integer> p) {
-    // Write your code here
+        int max = p.size();
 
+        List<Integer> ret = new ArrayList<>();
+
+        for (int i = 1; i <= max; i++) {
+            int index = p.indexOf(i)+1;
+            ret.add(p.indexOf(index)+1);
+        }
+
+        return ret;
     }
 
 }
@@ -33,7 +32,7 @@ public class A099_Sequence_Equation {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(System.out));
 
-        int n = Integer.parseInt(bufferedReader.readLine().trim());
+        Integer.parseInt(bufferedReader.readLine().trim());
 
         List<Integer> p = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
             .map(Integer::parseInt)
